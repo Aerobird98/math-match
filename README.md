@@ -1,3 +1,5 @@
+<div align="center"><a href="https://aerobird98.github.io/Page/lib/img/math-match.svg"><img src="https://aerobird98.github.io/Page/lib/img/math-match.svg" alt="math-match" width="200"></a></div>
+
 # math-match (**mm**)
 
 A **small** and realy **simple** implementation of the official 2048 game for the browser (Android browsers is supported).
