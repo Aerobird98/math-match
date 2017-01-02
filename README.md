@@ -7,7 +7,7 @@ You can find a live demo [here!](https://aerobird98.github.io/math-match/)
 
 ## How to use? (...)
 
-### ...with http-server ()
+### ...with http-server
 
 - Clone or download this repository
 - Navigate to `> cd c:/math-match` in the console
