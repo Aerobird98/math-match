@@ -1,0 +1,13 @@
+{
+  "name": "math-match",
+  "version": "0.0.1",
+  "main": "index.html",
+  "scripts": {
+    "std": "standard",
+    "server": "node_modules/.bin/http-server -c-1 ./docs"
+  },
+  "devDependencies": {
+    "http-server": "0.9.0",
+    "standard": "8.6.0"
+  }
+}

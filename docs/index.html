@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>math-match - by Aerobird98</title>
+
+  <!-- Core math-match css files 
+  ================================================================================== -->
+  <link rel="stylesheet" type="text/css" href="lib/math-match.css">
+  <link rel="stylesheet" type="text/css" href="lib/dark-color-scheme.css">
+  <!-- ============================================================================= -->
+
+</head>
+<body>
+
+  <!-- The container for the game -->
+  <div class="game-container">
+
+    <!-- Everything above the 'below' container -->
+    <div class="above-container">
+      <div class="retry"><a>Retry</a></div>
+      <a class="score-container">0</a><a class="best-container">0</a>
+    </div><!--./above-container-->
+
+    <!-- The container -->
+    <div class="container">
+      <div class="message">
+        <p></p>
+      </div>
+      
+      <!-- The grid-container -->
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div><!--./grid-container-->
+
+      <div class="number-container"><!-- ...for storing the numbers ./number-container-->
+
+      </div>
+    </div><!--./container-->
+
+    <!-- Everything below the 'above' container -->
+    <div class="below-container">
+      <div class="copyright"><p>&copy; 2016 Aerobird98, All rights reserved.</p></div>
+    </div><!--./below-container-->
+
+  </div><!--./game-container-->
+
+  <!-- Core math-match javascript files
+  ================================================================================== -->
+  <script type="text/javascript" src="lib/math-match.js"></script>
+  <script>
+  // ...wait untill the browser is ready to render the game (avoids glitches)
+  window.requestAnimationFrame(function () {
+    // ...and actualy create the GameManager instance (gridSize, input, operator, storage)
+    new GameManager(4, KeyboardInputManager, HTMLOperator, LocalStorageManager)
+  })
+
+  </script>
+  <!-- ============================================================================= -->
+  
+</body>
+</html>

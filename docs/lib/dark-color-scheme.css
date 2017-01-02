@@ -1,0 +1,76 @@
+/* 
+*  Dark coloring scheme for math-match,
+*  by Aerobird98
+*/
+html, body {
+  color: hsl(220, 13%, 18%);
+}
+.copyright {
+  color: rgba(204, 217, 255, 0.2);
+}
+.game-container {
+  color: hsl(220, 14%, 71%);
+  background: hsl(220, 13%, 18%);
+}
+.retry {
+  color: hsl(220, 14%, 71%);
+  background: rgba(204, 217, 255, 0.05);
+}
+.message {
+  background: rgba(40, 44, 52, 0.9);
+}
+.message p {
+  color: hsl(220, 14%, 71%);
+}
+.grid-cell {
+  background: rgba(204, 217, 255,0.05);
+}
+.number.number .number-inner {
+  color: hsl(220, 13%, 18%);
+  background: hsl(220, 14%, 71%);
+}
+.number.number-2 .number-inner {
+  color: hsl(220, 13%, 18%);
+  background: hsl(220, 14%, 71%);
+}
+.number.number-4 .number-inner {
+  color: hsl(220, 13%, 18%);
+  background: hsl(220, 14%, 71%);
+}
+.number.number-8 .number-inner {
+  color: hsl(220, 13%, 18%);
+  background: #e5c07b;
+}
+.number.number-16 .number-inner {
+  color: hsl(220, 13%, 18%);
+  background: hsl(220, 100%, 66%);
+}
+.number.number-32 .number-inner {
+  color: hsl(220, 13%, 18%);
+  background: #f67c5f;
+}
+.number.number-64 .number-inner {
+  color: hsl(220, 13%, 18%);
+  background: #c678dd;
+}
+
+.number.number-128 .number-inner {
+  color: hsl(220, 13%, 18%);
+  background: #d19a66;
+}
+.number.number-256 .number-inner {
+  color: hsl(220, 13%, 18%);
+  background: hsl(220, 100%, 58%);
+}
+.number.number-512 .number-inner {
+  color: hsl(220, 13%, 18%);
+  background: hsl(12, 89%, 58%);
+}
+.number.number-1024 .number-inner {
+  color: hsl(220, 13%, 18%);
+  background: hsl(286, 60%, 58%);
+}
+.number.number-2048 .number-inner {
+  color: hsl(220, 13%, 18%);
+  background: hsl(252, 61%, 55%);
+}
